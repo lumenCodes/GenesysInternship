@@ -1,0 +1,81 @@
+body {
+    background: rgba(230, 172, 12, 0.993);
+    padding-top: 70px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#search-box{
+
+}
+}
+form{
+    width: auto;
+}
+input{
+    width: auto;
+    font-size: 20px;
+    padding: 3px;
+
+}
+button{
+    width: auto;
+    font-size: 20px;
+    padding: 3px;
+    margin: 10px;
+}
+input, textarea {
+    outline-color: darkblue;
+    border: 1px solid #555555 ;
+}
+input:focus, textarea:focus {
+    box-shadow: 0 0 5px rgba(500, 5, 0, 1)
+    border: 1px solid #555555 ;
+
+}
+::placeholder{
+    color: gray;
+    opacity: 0.5;
+}
+h1{
+    text-align: center;
+    font-family: cursive;
+    padding-bottom: 30px;
+}
+table {
+    border-collapse: collapse;
+    background-color: rgba(245, 123, 9, 0.795);
+    border: 1px solid ;
+    margin-bottom: 50px;
+}
+table th {
+    text-align: center;
+    background-color: rgba(255, 68, 0, 0.699) ;
+    border: 1px solid ;
+    color: rgb(14, 9, 70);
+    padding: 18px 15px;
+    font-weight: bold;
+}
+table td{
+    border: 1px solid #e3e3e3;
+    padding: 6px 6px;
+}
+table tr{
+    border-style: hidden  ;
+    text-align: center;
+    padding: 10px 50px 6px 6px;
+    margin: 5px 5px 30px 20px;
+}
+table div{
+    padding: 10px 8px;
+
+    font-weight: bold;
+    outline: groove;
+    font-size: 20px;
+}
